@@ -4,7 +4,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram import Bot, Dispatcher
 import logging
 
-bot = Bot('6065397450:AAGyt7sKGBgTVn3kPMF8f9uklCLglcH_6UA')
+bot = Bot('Ваш токен')
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 logging.basicConfig(
